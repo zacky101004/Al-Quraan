@@ -43,7 +43,7 @@ Al-Quran App adalah aplikasi Android yang sederhana dan modern untuk membantu pe
 **🚀 Langkah Setup Aplikasi:**
 
 1. Clone repository:  
-   `git clone https://github.com/username/al-quran-app.git`  
+   `git clone https://github.com/zacky101004/Al-Quraan.git`  
    `cd al-quran-app`
 
 2. Buka di Android Studio:  
