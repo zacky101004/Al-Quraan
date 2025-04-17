@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:layout_margin="8dp"
+    android:elevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvAyatNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_play"
+            android:background="@null"
+            android:contentDescription="Play Audio"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/btnPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_pause"
+            android:background="@null"
+            android:contentDescription="Pause Audio"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btnBookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_bookmark"
+            android:background="@null"
+            android:contentDescription="Bookmark Ayat" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvArabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:gravity="end" />
+
+    <TextView
+        android:id="@+id/tvTranslation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dengan nama Allah Yang Maha Pengasih, Maha Penyayang."
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray" />
+</LinearLayout>
